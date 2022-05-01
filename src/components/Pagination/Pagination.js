@@ -27,6 +27,8 @@ const Pagination = ({ info, pageNumber, setPageNumber }) => {
       pageClassName="page-item"
       pageLinkClassName="page-link"
       activeClassName="active"
+      marginPageDisplayed = {width > 576 ? 1 : 2}
+      pageRangeDisplayed = {width > 576 ? 1 : 2}
       onPageChange={(e) => setPageNumber(e.selected + 1)}
       pageCount={info?.pages}
     />
