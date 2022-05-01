@@ -4,6 +4,8 @@ import "./Cards.css";
 const Cards = (props) => {
   let display;
   console.log(props.results);
+  
+  {/* mapping over the received data in props.results and rendering all the cards */}
 
   if (props.results) {
     display = props.results.map((data) => {
@@ -30,6 +32,9 @@ const Cards = (props) => {
               </p>
             </div>
           </div>
+  
+          {/* conditionally rendering the status color for different status values */}
+  
           {(() => {
             if (data.status === "Dead") {
               return (
