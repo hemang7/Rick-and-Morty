@@ -27,7 +27,7 @@ const Location = () => {
   return (
     <div className="container bangers">
       <div className="row mb-3">
-        <h1 className="text-center mb-3">
+        <h1 className="text-center mb-3 bangers">
           Location : {name === "" ? "Unknown" : name}
         </h1>
         <h5 className="text-center">
