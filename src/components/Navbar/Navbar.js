@@ -21,6 +21,9 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+    
+        {/* making the functionality for the hamburger menu for smaller screens and conditionally rendering the menu and exit buttons */}  
+    
           <style jsx>
             {`
               button[aria-expanded="false"] > .close {
