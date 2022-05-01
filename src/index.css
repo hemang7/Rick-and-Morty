@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images3.alphacoders.com/812/812062.png");
+  background-repeat: repeat-y;
+}
+
+
+.bangers {
+  font-family: 'Bangers', cursive;
+  color: #00FF7F;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.alignment {
+  margin-left: 40px;
+}
