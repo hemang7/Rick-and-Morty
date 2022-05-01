@@ -5,6 +5,8 @@ import "../Pagination/Pagination.css";
 const Pagination = ({ info, pageNumber, setPageNumber }) => {
   const [width, setWidth] = useState(window.innerWidth);
 
+  {/* function to update the width of pagination according to the window size */}
+  
   let updateDimension = () => {
     setWidth(window.innerWidth);
   };
