@@ -3,6 +3,9 @@ import React from "react";
 const InputGroup = ({ total, name, setID }) => {
   return (
     <div class="input-group mb-3">
+    
+    {/* mapping over the different pages received from the api and setting the ID to the current page chosen by the user */}
+
       <select
         onChange={(e) => setID(e.target.value)}
         class="form-select"
