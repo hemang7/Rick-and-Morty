@@ -44,7 +44,7 @@ const Location = () => {
         </div>
 
         <div className="col-lg-10 col-12">
-          <div className="row">
+          <div className="row text-center bangers">
             <Cards results={results} />
           </div>
         </div>
